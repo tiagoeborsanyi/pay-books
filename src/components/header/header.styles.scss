@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+
+  & > span {
+  }
+
+  & > h2 {
+    font-weight: inherit;
+    width: 100%;
+    text-align: center;
+  }
+}
