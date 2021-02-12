@@ -5,6 +5,7 @@ import Spread from '../../components/spread/spread';
 import CardBook from '../../components/card-book/card-book';
 import book1 from '../../assets/the-design.jpg';
 import book2 from '../../assets/dont-me-think.jpg';
+import Button from '../../components/button/button';
 import './purchasing.styles.scss';
 
 const Purchasing = () => (
@@ -46,6 +47,7 @@ const Purchasing = () => (
           </li>
         </ul>
       </div>
+      <Button text='Process to Payment' />
     </div>
 );
 
