@@ -2,3 +2,36 @@
   height: auto;
   width: 100%;
 }
+
+.container-values {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(226, 236, 240);
+
+  &__items {
+    list-style: none;
+    padding: 1.4rem .7rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem 0;
+    color: #126480;
+    font-size: .8rem;
+    font-weight: 500;
+
+    &.line > div {
+      width: 100%;
+      height: 3px;
+      background-color: #126480;
+      border-radius: 100px;
+    }
+
+    &.total {
+      color: #113d80;
+      font-weight: 600;
+    }
+  }
+}
