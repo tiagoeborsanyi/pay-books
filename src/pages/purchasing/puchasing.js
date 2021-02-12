@@ -47,7 +47,7 @@ const Purchasing = () => (
           </li>
         </ul>
       </div>
-      <Button text='Process to Payment' />
+      <Button text='Process to Payment' route='/pay' />
     </div>
 );
 
