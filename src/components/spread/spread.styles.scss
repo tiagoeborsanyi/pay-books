@@ -1,0 +1,21 @@
+.spread {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+  & > div {
+    height: .7rem;
+    width: .7rem;
+    background-color: lightblue;
+    border-radius: 50%;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
+
+.selected {
+  background-color: #2b4a9e !important;
+}
