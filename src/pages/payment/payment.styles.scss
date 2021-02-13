@@ -1,0 +1,16 @@
+.total {
+  height: auto;
+  width: 100%;
+  background-color: rgba(55, 231, 207, 0.22);
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: .9rem .7rem;
+  border-radius: 9px;
+
+  & > p {
+    color: royalblue;
+    font-size: .8rem;
+    font-weight: 500;
+  }
+}
